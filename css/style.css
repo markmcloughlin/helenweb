@@ -32,9 +32,10 @@ h6 {
 
 blockquote {
 	font-family: Georgia, arial, sans-serif;
-	color: #bbb;
+	/*color: #bbb;*/
 	font-size: 20px;
 }
+
 
 p {
     margin: 0 0 20px;
@@ -426,6 +427,7 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 --- Footer
 ============================ */
 
+/*
 footer {
 	text-align: center;
 	padding: 50px 0 30px;
@@ -443,7 +445,7 @@ footer a {
 footer a:hover {
 	color: #ccc;
 }
-
+*/
 /* ==========================
 Parallax
 ============================= */

@@ -1,0 +1,11 @@
+blockquote:before, blockquote:after {
+    content:none;
+}
+
+.newspaper {
+    font-family: 'Cutive', serif; 
+}
+
+.video-js .vjs-tech {
+    padding-bottom: 55px;
+}
