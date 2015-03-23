@@ -249,11 +249,12 @@ hr {
 ============================ */
 
 .home-section {
-    padding-top: 120px;
-    padding-bottom: 110px;
+    margin-top: 50px;
+    padding-top: 70px;
+    padding-bottom: 20px;
 	display:block;
     position:relative;
-    z-index:120;
+    /*z-index:120;*/
 }
 
 .section-heading {
@@ -300,7 +301,7 @@ hr {
 .intro {
 	width:100%;
 	position:relative;	
-	background: url(../img/IMG_2746-extended.jpg) no-repeat top left;
+	background: url(../img/IMG_2746-white_bg.jpg) no-repeat top left;
 	background-size: cover;
 }
 
@@ -310,7 +311,19 @@ hr {
 
 .intro .slogan {
 	text-align: right;
+    font-variant: small-caps;
+}
 
+.newintro .slogan {
+	text-align: right;
+    font-variant: small-caps;
+    font-size: 60px;
+    line-height: 1.0em;
+    
+}
+
+.newintro .page-scroll {
+	text-align: right;   
 }
 
 .intro .page-scroll {
