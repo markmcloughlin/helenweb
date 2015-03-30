@@ -60,7 +60,7 @@
                         </div>
                     </div>
                     <div class="row visible-xs visible-sm">
-                        <div class="col-md-12" style="text-align:center; font-size:60px; line-height:1em; font-variant: small-caps;background-color:red;">
+                        <div class="col-md-12" style="text-align:center; font-size:60px; line-height:1em; font-variant: small-caps;">
                             <span>Helen Donaldson</span>
                         </div>
                     </div>
@@ -92,14 +92,14 @@
                                           <!-- Brand and toggle get grouped for better mobile display -->
                                           <div class="navbar-header">
                                                 <a class="navbar-brand visible-xs" style="font-variant: small-caps;">Helen Donaldson</a>
-                                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".menu-collapse">
                                                 <i class="fa fa-bars"></i>
                                                 </button>
                                           </div>
                                                       <!-- Collect the nav links, forms, and other content for toggling -->
-                                                      <div class="collapse navbar-collapse" id="menu">
+                                                      <div class="collapse navbar-collapse menu-collapse" id="menu">
                                                             <ul class="nav navbar-nav">
-                                                                  <li class="active"><a href="#intro">Home</a></li>
+                                                                  <li class="active"><a href="#newintro">Home</a></li>
                                                                   <li><a href="#about">About Me</a></li>
 														          <li><a href="#separator">My gallery</a></li> 
                                                                   <!-- <li><a href="#contact">Contact me</a></li> -->
@@ -117,6 +117,7 @@
 
 	<!-- Section: about -->
     <section id="about" class="home-section">
+                <div class="menu-collapse collapse"><div style="height:60px;">&nbsp;</div></div>
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
@@ -158,10 +159,10 @@ Helen has performed concerts and recitals throughout Australia and Hong Kong whi
 	
 	<!-- Section: separator -->
     <section id="separator" class="home-section parallax text-center" data-stellar-background-ratio="0.5">
-		
+        <div class="menu-collapse collapse"><div style="height:60px;">&nbsp;</div></div>	
 		<div class="container">
 			<div class="row">
-					<div class="col-xs-4 col-sm-4 col-md-4">
+					<div class="col-xs-6 col-sm-3 col-md-3">
                         <a href="#reviews">
                             <div class="align-center txt-shadow">
                                 <div class="icon">
@@ -171,7 +172,7 @@ Helen has performed concerts and recitals throughout Australia and Hong Kong whi
                             </div>
                         </a>
 					</div>
-					<div class="col-xs-4 col-sm-4 col-md-4">
+					<div class="col-xs-6 col-sm-3 col-md-3">
                         <a href="#videos">
                             <div class="align-center txt-shadow">
                                 <div class="icon">
@@ -181,17 +182,17 @@ Helen has performed concerts and recitals throughout Australia and Hong Kong whi
                             </div>
                         </a>
 					</div>
-					<!-- <div class="col-xs-6 col-sm-3 col-md-3">
-                        <a href="#audio">
+					<div class="col-xs-6 col-sm-3 col-md-3">
+                        <a href="#discography">
                             <div class="align-center txt-shadow">
                                 <div class="icon">
                                     <i class="fa fa-music fa-5x"></i>
                                 </div>
-                            <span class="color-white">Audio Recordings</span>
+                            <span class="color-white">Discography</span>
                             </div>
                         </a>
-					</div> -->
-					<div class="col-xs-4 col-sm-4 col-md-4">
+					</div>
+					<div class="col-xs-6 col-sm-3 col-md-3">
 						<div class="align-center txt-shadow">
 							<a href="#gallery">
                                 <div class="icon">
@@ -363,7 +364,7 @@ Helen has performed concerts and recitals throughout Australia and Hong Kong whi
 
 		<div class="container">
 			<div class="row">    
-                <div class="col-sm-5">
+                <div class="col-sm-5 col-md-5">
                     <!-- Video Player -->
                     <div class="video-player boxed">
                         <div class="inner">
@@ -382,7 +383,7 @@ Helen has performed concerts and recitals throughout Australia and Hong Kong whi
                 </div>
             </div>           
 			<div class="row">    
-                <div class="col-sm-5">
+                <div class="col-sm-5 col-md-5">
                     <!-- Video Player -->
                     <div class="video-player boxed">
                         <div class="inner">
@@ -404,11 +405,52 @@ Helen has performed concerts and recitals throughout Australia and Hong Kong whi
         </div>
 	</section>
 	<!-- /Section: videos -->
-    
-    
+    	<!-- Section: discography -->
+    <section id="discography" class="home-section text-center bg-gray">
+        <div class="menu-collapse collapse"><div style="height:60px;">&nbsp;</div></div>
+			<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="wow bounceInDown" data-wow-delay="0.4s">
+					<div class="section-heading">
+						<h2>My discography</h2>
+						<p>All live recordings!</p>
+					</div>
+					</div>
+				</div>
+			</div>
+			</div>
+
+		<div class="container">
+			<div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12" >
+					<div class="wow bounceInUp" data-wow-delay="0.4s">
+                    <div id="owl-works-0" class="owl-carousel-0">
+                        <div class="item">
+                            <a href="img/PVid.jpg" title="Mabel - Pirates of Penzance" data-lightbox-gallery="gallery0">
+                                <img src="img/PVid.jpg" class="img-responsive" alt="img">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="img/PinVid.jpg" title="Josephine - HMS Pinafore" data-lightbox-gallery="gallery0">
+                                <img src="img/PinVid.jpg" class="img-responsive" alt="img">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="img/Book-Pg-1-Art.jpg" title="The Sound of Julie Andrews" data-lightbox-gallery="gallery0">
+                                <img src="img/Book-Pg-1-Art.jpg" class="img-responsive" alt="img">
+                            </a>
+                        </div>
+                    </div>
+					</div>
+                </div>
+            </div>
+		</div>
+	</section>
+	<!-- /Section: discography -->
 	<!-- Section: gallery -->
     <section id="gallery" class="home-section text-center bg-gray">
-
+        <div class="menu-collapse collapse"><div style="height:60px;">&nbsp;</div></div>
 			<div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
