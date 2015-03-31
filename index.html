@@ -403,7 +403,7 @@ Helen lives near New York City with her husband and children, cats and chickens.
                     </div>
                     <!--/ Video Player -->
                 </div>
-                <div class="col-sm-7">
+                <div class="col-sm-7 col-md-7">
                         <p>These are some clips from my work with Essgee Entertainment in Australia. Lots of zany Gilbert &amp; Sullivan and a beautiful production of The Merry Widow by Lehar.</p>
                 </div>
             </div>           
@@ -423,7 +423,7 @@ Helen lives near New York City with her husband and children, cats and chickens.
                     <!--/ Video Player -->
 
                 </div>
-                <div class="col-sm-7">
+                <div class="col-sm-7 col-md-7">
                         <p>These clips are from my "Sound of Julie Andrews" show. I had great fun putting this together and taking it on the road with tenor David Kidd and musical director Craig Renshaw.</p>
                 </div>
             </div>
@@ -614,7 +614,7 @@ Helen lives near New York City with her husband and children, cats and chickens.
                 myPlayer.width(width).height( width * aspectRatio + 55);
             }
             resizeVideoJS();
-            window.onresize = resizeVideoJS;
+            $(window).resize(resizeVideoJS);
         });
         _V_("julie").ready(function(){
             var myPlayer2 = this;
@@ -627,7 +627,7 @@ Helen lives near New York City with her husband and children, cats and chickens.
                 myPlayer2.width(width2).height( width2 * aspectRatio2 + 55);
             }
             resizeVideoJS2();
-            window.onresize = resizeVideoJS2;
+            $(window).resize(resizeVideoJS2);
         });
     </script>
 </body>
