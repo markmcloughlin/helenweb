@@ -9,3 +9,7 @@ blockquote:before, blockquote:after {
 .video-js .vjs-tech {
     padding-bottom: 55px;
 }
+
+.divider {
+ min-height: 55px;   
+}
